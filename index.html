@@ -810,15 +810,26 @@
 							<div class="single-footer-widget">
 								<div><h2>Drop Your Order</h2>
 								<div class="container">
-<form action="https://formsubmit.co/tessfuyedbu2018@gmail.com" method="POST">
-	<br/>
-     <input type="text" name="name" required>
-	<br/>
-     <input type="email" name="email" required>
-	<br/>
-     <button type="submit">Send</button>
-	<br/>
-</form>
+<body>
+	<h3>Contact us</h3>
+	
+	<form onsubmit="runCode(event)"action="https://formsubmit.co/tessfuyedbu2018@gmail.com" method="post">
+		<br/>
+		<input name="address" placeholder="address"/>
+		<br/>
+	<input name="email" type="email" placeholder="email"/>
+		<br/>
+	<input name="Phone" type="tel" placeholder="phone"/>
+		<br/>
+	<button type="submit">Submit</button>
+	</form>
+	<script>
+		functionsubmit(e) {
+			e.priventDefault();
+		}
+		<script/>
+	
+</body>
 
 
 								</div>
